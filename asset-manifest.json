@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/image-search/static/css/main.c80427de.css",
+    "main.js": "/image-search/static/js/main.79b86467.js",
+    "static/media/ikea.jpg": "/image-search/static/media/ikea.8b7f3e526d2c201152ad.jpg",
+    "static/media/img_search.jpg": "/image-search/static/media/img_search.ad965ba0987bb4bf18a6.jpg",
+    "static/media/chocollage.jpg": "/image-search/static/media/chocollage.c791018b0bed46962226.jpg",
+    "static/media/mario.jpg": "/image-search/static/media/mario.3a4cc09c807d5a60cc2a.jpg",
+    "static/media/weather_app.jpg": "/image-search/static/media/weather_app.c65b6cb37527003bd4f4.jpg",
+    "static/media/snake.jpg": "/image-search/static/media/snake.d93b37bc262099c88587.jpg",
+    "static/media/avatar2.jpeg": "/image-search/static/media/avatar2.7bbcab2aebf1562137fe.jpeg",
+    "static/media/bouncing_ball.jpg": "/image-search/static/media/bouncing_ball.c853124bc84208fc291a.jpg",
+    "static/media/avatar.jpg": "/image-search/static/media/avatar.9d242403f3a33f38e165.jpg",
+    "static/media/instagram.svg": "/image-search/static/media/instagram.377212f64a6689e1c1ecba9abd505720.svg",
+    "static/media/github.svg": "/image-search/static/media/github.d205c6f8f41922154b9674e53ebdeb3a.svg",
+    "index.html": "/image-search/index.html",
+    "static/media/mobile.svg": "/image-search/static/media/mobile.fe6bacdde432359af5d64316747d5d33.svg",
+    "static/media/facebook.svg": "/image-search/static/media/facebook.2cd134e7de0a50ae1e48737d3e9105fe.svg",
+    "static/media/email.svg": "/image-search/static/media/email.6ac62bfa03e2a985535678e82ffed575.svg",
+    "main.c80427de.css.map": "/image-search/static/css/main.c80427de.css.map",
+    "main.79b86467.js.map": "/image-search/static/js/main.79b86467.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c80427de.css",
+    "static/js/main.79b86467.js"
+  ]
+}
