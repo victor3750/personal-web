@@ -1,0 +1,57 @@
+#experience {
+  min-height: 87vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .ex_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .education {
+      h1 {
+        font-weight: 300;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-weight: 300;
+      }
+    }
+    .work_ex {
+      margin-top: 3rem;
+      h1 {
+        font-weight: 300;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-weight: 300;
+      }
+    }
+  }
+  .ex_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .skill {
+      h1 {
+        font-weight: 300;
+        margin-bottom: 1rem;
+      }
+      ul {
+        font-weight: 300;
+        list-style: circle;
+        li {
+            margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:600px) {
+    #experience {
+        flex-direction: column;
+        align-items: start;
+        padding: 0 10%;
+      }
+}

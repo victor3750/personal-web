@@ -1,0 +1,123 @@
+header {
+  height: 10vh;
+  background-color: #c2caca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .to_home {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 
+    0 .005em 0 #ccc, 
+    0 .01em 0 #c9c9c9, 
+    0 .015em 0 #bbb, 
+    0 .02em 0 #b9b9b9, 
+    0 .025em 0 #aaa, 
+    0 .03em .005em rgba(0,0,0,.1), 
+    0 0 .025em rgba(0,0,0,.1), 
+    0 .005em .015em rgba(0,0,0,.3), 
+    0 .015em .025em rgba(0,0,0,.2), 
+    0 .025em .05em rgba(0,0,0,.25), 
+    0 .05em .05em rgba(0,0,0,.2), 
+    0 .1em .1em rgba(0,0,0,.15);
+  }
+  .navigation {
+    margin-right: 2rem;
+    ul {
+      display: flex;
+      li {
+        margin: 0 1rem;
+        a {
+          display: block;
+          font-size: 1.25rem;
+          color: black;
+          border-bottom: solid 2px transparent;
+          &:hover,
+          &.active {
+            color: white;
+            border-bottom: solid 2px white;
+          }
+        }
+      }
+    }
+  }
+  
+  .hamburger {
+    display: none;
+  }
+}
+.ham-nav {
+  background-color: #c2caca;
+  box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.3),
+    -2px 2px 5px rgba(0, 0, 0, 0.15);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1s ease;
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      margin: 1rem 0;
+      text-align: center;
+      a {
+        display: inline-block;
+        font-size: 1.25rem;
+        color: black;
+        border-bottom: solid 2px transparent;
+        &:hover,
+        &.active {
+          color: white;
+          border-bottom: solid 2px white;
+        }
+      }
+    }
+  }
+}
+
+/* 漢堡按鈕 */
+@media (max-width: 600px) {
+  header {
+    .navigation {
+      display: none;
+    }
+
+    .hamburger {
+      display: inline-block; /* 自動抓內容(.bar)的尺寸 */
+      cursor: pointer;
+      /* 取消button預設樣式 */
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      margin-right: 20px;
+      &.is-active .bar:nth-child(2) {
+        opacity: 0;
+      }
+
+      &.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+
+      &.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+      .bar {
+        display: block; /* 修改行內元素為區塊元素 */
+        width: 25px;
+        height: 3px;
+        border-radius: 25%;
+        margin: 5px auto;
+        background-color: #000000;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+  .ham-nav.show {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 600px){
+
+}

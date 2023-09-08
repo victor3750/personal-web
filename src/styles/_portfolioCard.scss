@@ -1,0 +1,33 @@
+#portfolio_card {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  height: 16rem;
+  color: black;
+  margin: 1rem 1.5rem;
+  // border-radius: 10px;
+  overflow: hidden;
+  // 玻璃擬態
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15),
+    inset -1px -1px 1px rgba(255, 255, 255, 0.3);
+    transition: 1s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  .web_img {
+    height: 55%;
+  }
+  .web_text {
+    padding: 1rem;
+    .web_name {
+      font-weight: 300;
+      padding-bottom: 0.5rem;
+    }
+    .desc {
+      font-weight: 300;
+    }
+  }
+}
