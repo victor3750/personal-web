@@ -32,7 +32,7 @@ header {
         a {
           display: block;
           font-size: 1.25rem;
-          color: black;
+          color: #515151;
           border-bottom: solid 2px transparent;
           &:hover,
           &.active {
@@ -49,7 +49,7 @@ header {
   }
 }
 .ham-nav {
-  background-color: #c2caca;
+  background-color: #fff;
   box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.3),
     -2px 2px 5px rgba(0, 0, 0, 0.15);
   max-height: 0;
@@ -68,8 +68,8 @@ header {
         border-bottom: solid 2px transparent;
         &:hover,
         &.active {
-          color: white;
-          border-bottom: solid 2px white;
+          color: #c9c9c9;
+          border-bottom: solid 2px #c9c9c9;
         }
       }
     }
@@ -108,7 +108,19 @@ header {
         height: 3px;
         border-radius: 25%;
         margin: 5px auto;
-        background-color: #000000;
+        background-color: #fff;
+        box-shadow: 0 .005em 0 #ccc, 
+        0 .01em 0 #c9c9c9, 
+        0 .015em 0 #bbb, 
+        0 .02em 0 #b9b9b9, 
+        0 .025em 0 #aaa, 
+        0 .03em .005em rgba(0,0,0,.1), 
+        0 0 .025em rgba(0,0,0,.1), 
+        0 .005em .015em rgba(0,0,0,.3), 
+        0 .015em .025em rgba(0,0,0,.2), 
+        0 .025em .05em rgba(0,0,0,.25), 
+        0 .05em .05em rgba(0,0,0,.2), 
+        0 .1em .1em rgba(0,0,0,.15);;
         transition: all 0.3s ease-in-out;
       }
     }

@@ -22,19 +22,19 @@ const portfolios = [
     url: "https://victor3750.github.io/image-search/",
   },
   {
-    name: "貪吃蛇",
+    name: "小遊戲：貪吃蛇",
     img: snake,
     description: "#JavaScript #Canvas",
     url: "https://victor3750.github.io/Snake/",
   },
   {
-    name: "彈跳球",
+    name: "小遊戲：彈跳球",
     img: bouncingBall,
     description: "#JavaScript #Canvas",
     url: "https://victor3750.github.io/Bouncing_Ball/",
   },
   {
-    name: "Chocollage",
+    name: "虛擬巧克力品牌網站",
     img: chocollage,
     description: "#切版 #RWD",
     url: "https://victor3750.github.io/chocollage_project/",

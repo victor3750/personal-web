@@ -27,7 +27,7 @@ header .navigation ul li {
 header .navigation ul li a {
   display: block;
   font-size: 1.25rem;
-  color: black;
+  color: #515151;
   border-bottom: solid 2px transparent;
 }
 header .navigation ul li a:hover, header .navigation ul li a.active {
@@ -39,7 +39,7 @@ header .hamburger {
 }
 
 .ham-nav {
-  background-color: #c2caca;
+  background-color: #fff;
   box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.3), -2px 2px 5px rgba(0, 0, 0, 0.15);
   max-height: 0;
   overflow: hidden;
@@ -60,8 +60,8 @@ header .hamburger {
   border-bottom: solid 2px transparent;
 }
 .ham-nav ul li a:hover, .ham-nav ul li a.active {
-  color: white;
-  border-bottom: solid 2px white;
+  color: #c9c9c9;
+  border-bottom: solid 2px #c9c9c9;
 }
 
 /* 漢堡按鈕 */
@@ -93,7 +93,8 @@ header .hamburger {
     height: 3px;
     border-radius: 25%;
     margin: 5px auto;
-    background-color: #000000;
+    background-color: #fff;
+    box-shadow: 0 0.005em 0 #ccc, 0 0.01em 0 #c9c9c9, 0 0.015em 0 #bbb, 0 0.02em 0 #b9b9b9, 0 0.025em 0 #aaa, 0 0.03em 0.005em rgba(0, 0, 0, 0.1), 0 0 0.025em rgba(0, 0, 0, 0.1), 0 0.005em 0.015em rgba(0, 0, 0, 0.3), 0 0.015em 0.025em rgba(0, 0, 0, 0.2), 0 0.025em 0.05em rgba(0, 0, 0, 0.25), 0 0.05em 0.05em rgba(0, 0, 0, 0.2), 0 0.1em 0.1em rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-in-out;
   }
   .ham-nav.show {
@@ -234,7 +235,6 @@ header .hamburger {
   align-items: center;
 }
 #portfolio h1 {
-  width: 90%;
   height: 3rem;
   line-height: 3rem;
   margin-top: 1rem;
@@ -244,11 +244,20 @@ header .hamburger {
 }
 #portfolio .portfolio_container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
-  width: 90%;
+  padding: 0 5%;
 }
 
+@media (max-width: 494px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+  #portfolio .portfolio_container {
+    flex-direction: column;
+    width: 80%;
+  }
+}
 #portfolio_card {
   display: flex;
   flex-direction: column;
@@ -268,7 +277,8 @@ header .hamburger {
   transform: scale(1.1);
 }
 #portfolio_card .web_img {
-  height: 55%;
+  width: 100%;
+  height: 60%;
 }
 #portfolio_card .web_text {
   padding: 1rem;
@@ -276,11 +286,82 @@ header .hamburger {
 #portfolio_card .web_text .web_name {
   font-weight: 300;
   padding-bottom: 0.5rem;
+  font-size: 1.25rem;
 }
 #portfolio_card .web_text .desc {
   font-weight: 300;
+  font-size: 0.875rem;
 }
 
+@media (max-width: 1028px) {
+  #portfolio_card {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem 1rem;
+  }
+  #portfolio_card .web_img {
+    height: 60%;
+  }
+  #portfolio_card .web_text {
+    padding: 1rem;
+  }
+  #portfolio_card .web_text .web_name {
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  #portfolio_card .web_text .desc {
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 512px) {
+  #portfolio_card {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem 0.75rem;
+  }
+  #portfolio_card .web_img {
+    height: 60%;
+  }
+  #portfolio_card .web_text {
+    padding: 1rem;
+  }
+  #portfolio_card .web_text .web_name {
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  #portfolio_card .web_text .desc {
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 494px) {
+  #portfolio_card {
+    width: 100%;
+    height: 6rem;
+    margin: 1rem 0.75rem;
+    flex-direction: row;
+  }
+  #portfolio_card .web_img {
+    width: 55%;
+    height: 100%;
+  }
+  #portfolio_card .web_text {
+    width: 45%;
+    padding: 0.75rem;
+  }
+  #portfolio_card .web_text .web_name {
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+  #portfolio_card .web_text .desc {
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+}
 #experience {
   min-height: 87vh;
   display: flex;
@@ -331,7 +412,7 @@ header .hamburger {
   #experience {
     flex-direction: column;
     align-items: start;
-    padding: 0 10%;
+    padding: 0 15%;
   }
 }
 * {
