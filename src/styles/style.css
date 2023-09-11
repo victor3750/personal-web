@@ -119,16 +119,54 @@ header .hamburger {
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.5);
+  animation: show 2s ease-in;
 }
 #home_page .opening {
   font-size: 3rem;
   flex: 1;
   text-align: center;
+  opacity: 0;
+  animation: show 2s ease-in both;
 }
 
-@media (max-width: 600px) {
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1020px) {
+  #home_page .opening {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 850px) {
   #home_page .opening {
     font-size: 2rem;
+  }
+}
+@media (max-width: 690px) {
+  #home_page .opening {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 690px) {
+  #home_page {
+    display: block;
+  }
+  #home_page .avatar {
+    padding-top: 5rem;
+  }
+  #home_page .opening {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 380px) {
+  #home_page .opening {
+    font-size: 1.5rem;
   }
 }
 #about {
@@ -255,7 +293,7 @@ header .hamburger {
   }
   #portfolio .portfolio_container {
     flex-direction: column;
-    width: 80%;
+    width: 90%;
   }
 }
 #portfolio_card {
@@ -312,7 +350,7 @@ header .hamburger {
     width: 100%;
     aspect-ratio: 3/1.25;
     height: auto;
-    margin: 1rem 0.75rem;
+    margin: 1rem 0;
     flex-direction: row;
   }
   #portfolio_card .web_img {
