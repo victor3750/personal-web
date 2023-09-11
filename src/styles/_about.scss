@@ -7,6 +7,7 @@
     width: 35%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     .avatar_container2 {
       height: 15rem;
       width: 15rem;
@@ -76,7 +77,6 @@
     padding: 0 10%;
     .information {
       width: 70%;
-      align-items: center;
       .avatar_container2 {
         height: 12rem;
         width: 12rem;

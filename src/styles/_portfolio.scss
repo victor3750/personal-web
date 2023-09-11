@@ -16,15 +16,15 @@
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    padding: 0 5%;
+    margin: 0 5%;
   }
 }
 
-@media (max-width:494px) {
-  h1 {
-    font-size: 1.25rem;
-  }
+@media (max-width:460px) {
   #portfolio {
+    h1 {
+      font-size: 1.25rem;
+    }
     .portfolio_container {
       flex-direction: column;
       width: 80%;
