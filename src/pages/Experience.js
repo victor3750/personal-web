@@ -18,11 +18,13 @@ const Experience = () => {
           <h1>Skill</h1>
           <ul>
             <li>HTML/CSS/JavaScript</li>
-            <li>Git/GitHub</li>
-            <li>Bootstrap</li>
-            <li>RWD（響應式網頁設計）</li>
+            <li>SCSS</li>
+            <li>RWD響應式網頁設計</li>
+            <li>AJAX 天氣、圖片網站API串取經驗</li>
             <li>React</li>
-            <li>Figma</li>
+            <li>接觸過Bootstrap</li>
+            <li>Git/GitHub 基本的push&pull</li>
+            <li>Figma 基礎操作</li>
           </ul>
         </div>
       </div>

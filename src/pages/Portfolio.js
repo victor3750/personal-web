@@ -24,13 +24,13 @@ const portfolios = [
   {
     name: "小遊戲：貪吃蛇",
     img: snake,
-    description: "#JavaScript #Canvas",
+    description: "#JavaScript",
     url: "https://victor3750.github.io/Snake/",
   },
   {
     name: "小遊戲：彈跳球",
     img: bouncingBall,
-    description: "#JavaScript #Canvas",
+    description: "#JavaScript",
     url: "https://victor3750.github.io/Bouncing_Ball/",
   },
   {
