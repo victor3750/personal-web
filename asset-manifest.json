@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.09cde8e6.css",
+    "main.css": "/static/css/main.acf6fbc6.css",
     "main.js": "/static/js/main.c02c3ef5.js",
     "static/media/ikea.jpg": "/static/media/ikea.8b7f3e526d2c201152ad.jpg",
     "static/media/img_search.jpg": "/static/media/img_search.ad965ba0987bb4bf18a6.jpg",
@@ -17,11 +17,11 @@
     "static/media/mobile.svg": "/static/media/mobile.fe6bacdde432359af5d64316747d5d33.svg",
     "static/media/facebook.svg": "/static/media/facebook.2cd134e7de0a50ae1e48737d3e9105fe.svg",
     "static/media/email.svg": "/static/media/email.6ac62bfa03e2a985535678e82ffed575.svg",
-    "main.09cde8e6.css.map": "/static/css/main.09cde8e6.css.map",
+    "main.acf6fbc6.css.map": "/static/css/main.acf6fbc6.css.map",
     "main.c02c3ef5.js.map": "/static/js/main.c02c3ef5.js.map"
   },
   "entrypoints": [
-    "static/css/main.09cde8e6.css",
+    "static/css/main.acf6fbc6.css",
     "static/js/main.c02c3ef5.js"
   ]
 }
